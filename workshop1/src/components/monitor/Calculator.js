@@ -3,7 +3,6 @@ import React , { Component } from "react";
 class Calculator extends Component {
 
     showOrders (orders) {
-        console.log(orders);
         if(!orders || orders.length === 0) {
             return <li className="text-right text-muted title">ยังไม่ทำการสั่งซื้อค่ะ</li>
         }  else {
